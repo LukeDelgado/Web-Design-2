@@ -1,0 +1,78 @@
+
+@use "vendor/normalize";
+@import "partials/colors.scss";
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+a
+{
+    color: $tertiary-font-color;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+body {
+    color: $primary-font-color;
+    background-color: #ffffff;
+}
+
+nav {
+    display: inline-flex;
+    font-family: lexend;
+    color: $tertiary-font-color;
+    margin-inline: 2rem;
+}
+
+header
+{
+    background-color: $darker-background;  
+}
+
+.discover
+{
+    font-size: 3rem;
+    color: $secondary-font-color;
+}
+
+.our_story
+{
+    font-family: lexend;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+article
+{
+    display: inline-block;
+    text-align: center;
+    font-family: lexend;
+}
+
+
+footer
+{
+    position:absolute;
+    bottom: 0;
+    font-family: lexend;
+    background-color: $dark-background;
+    color: $tertiary-font-color;
+}
+
+.description {
+    width: 50rem;
+    margin-left: 5rem;
+    
+}
+
+.photo
+{
+    margin-top: 5rem;
+    border-radius: 50px;
+    margin-left: 10rem;
+}
